@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.header-one{
+    margin: 0;
+    display: flex;
+    height: 85px;
+    background-color: black;
+    padding: 0 30px;
+
+}
+.logo-sec{
+    align-items: center;
+    padding-top: 40px;
+    width: 1000px;
+}
+
+.logo-sony{
+    width: 100px;
+    margin-left: 129px;
+}
+.profile-icon{
+    width: 40px;
+    margin-top: 30px;
+}
+.my-sony-text{
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 55px;
+}
+.heart-icon{
+    width: 25px;
+    margin-top: 45px;
+    margin-left: 50px;
+    
+}
+.search-icon{
+    width: 20px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.hamburger-icon{
+    width: 50px;
+background-color: rgb(255, 255, 255);
+border-radius: 100%;
+margin-left: 50px;
+margin-top: 28px;
+}
+.section-one{
+    display: block;
+}
+.fist-section-pic{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height:450px ;
+
+}
+.first-section-text-container{
+    position: absolute;
+    background-color: rgb(0, 0, 0,0.6);
+    width: 400px;
+    height: 300px;
+    border-style: none;
+    bottom: 210px;
+    left: 100px;
+    text-align: start;
+    padding: 1.875rem;
+}
+.explore-a80k-button{
+    background-color:#4575c1;
+    margin-top: 35px;
+    width: 152px;
+    height: 40px;
+    font-size: 12px;
+    border-style: solid;
+    padding: 10px;
+    border-color: white;
+    border-width: 0.9px;
+    color: white;
+
+}
+.text-first-section{
+    color: rgb(255, 255, 255);
+    width:400px;
+    font-weight: 100 ;
+}
+.third-section{
+    
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+}
+.the-latest{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-weight: 700;
+    color: rgb(37, 37, 37);
+}
+.third-sec-image-container{
+    min-width: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+.third-sec-pic{
+    width: 380px;
+    position: relative;
+    object-fit: cover;
+}
+
+.third-sec-text{
+    position: absolute;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    bottom: 10px;
+}
+.head-third-text{
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 15px;
+
+}
+.desc-third{
+    width: 300px;
+    font-weight: 100;
+    font-size: 25px;
+}
+.fourth-section{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.fourth-section-buttons{
+    display: flex;
+}
+.buttons{
+    margin-top: 30px;
+    width: 200px;
+    height: 45px;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    font-size: large;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.buttons:hover{
+    background-color: rgb(221, 221, 221);
+}
+.fifth-section{
+    margin: 100px;
+}
+.promotion-cards-section{
+    display: flex;
+}
+.card-container{
+    width: 40%;
+    object-fit: cover;
+    background-color: rgb(242, 242, 242);
+    margin-top: 15px;
+    position: relative;
+    margin: 50px;
+}
+.card-pic{
+    width: 185px;
+}
+.card-text{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    color: rgb(66, 66, 66);
+}
+.camera-sec{
+    margin-top: 15px;
+    margin-left: 50px;
+    display: block;
+    background-color: #dddddd;
+    width: 160px;
+    height: 150px;
+    text-align: center;
+    color: #5b5b5b;
+}
+.camera-pic{
+    width: 150px;
+}
+.footer-sec{
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    font-size: smaller;
+    font-weight: 500;
+    color:rgb(0, 0, 0);
+    height: 250px;
+}
+.footer-first-text{
+    margin-left: 100px;
+    width: 1200px;
+}
+.footer-sec-two{
+    display: flex;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.headings-ftr{
+    font-weight: 100;
+}
+.footer-second-text{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight: 100;
+}
+.ftr-text-two{
+    font-size: 12px;
+}
+.footer-sec-three{
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 60px;
+}
+.ftr-text-three{
+    display:inline-block ;
+    font-size: 12px;
+    color: white;
+    margin: 25px;
+}
+.footer-sec-four{
+    display: flex;   
+}
+
+.footer-sec-four{
+    display: flex;
+    margin-left: 1100px;
+    width: 480px;
+
+
+}
+.footer-button{
+    margin-left: 1px;
+   padding: 1px;
+}
+.icon-sec{
+    width: 40px;
+    height:30px;
+    object-fit: cover;
+    justify-content: space-around;
+}
